@@ -1,5 +1,7 @@
 /target
 maven-metadata-local.xml
+maven-metadata-local.xml.md5
+maven-metadata-local.xml.sha1
 
 .DS_Store
 .DS_Store?
