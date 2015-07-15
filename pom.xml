@@ -721,6 +721,7 @@
             <file>${dir.src}/fusiondebug-api-server-1-0-20.jar</file>
          </configuration>
       </execution>
+      
 <!-- apache.http.components.client - 4.4.1 -->
       <execution>
          <id>apache.http.components.client-4.4.1</id>
@@ -739,6 +740,26 @@
             <file>${dir.src}/apache-http-components-client-4-4-1.jar</file>
          </configuration>
       </execution>
+      
+<!-- apache.http.components.client - 4.5.0 -->
+      <execution>
+         <id>apache.http.components.client-4.5.0</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>apache.http.components</groupId>
+            <artifactId>client</artifactId>
+            <version>4.5.0</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/apache-http-components-client-4-5-0.jar</file>
+         </configuration>
+      </execution>
+
 <!-- apache.http.components.core - 4.4.1 -->
       <execution>
          <id>apache.http.components.core-4.4.1</id>
@@ -775,6 +796,26 @@
             <file>${dir.src}/apache-http-components-mime-4-4-1.jar</file>
          </configuration>
       </execution>
+
+<!-- apache.http.components.mime - 4.5.0 -->
+      <execution>
+         <id>apache.http.components.mime-4.5.0</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>apache.http.components</groupId>
+            <artifactId>mime</artifactId>
+            <version>4.5.0</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/apache-http-components-mime-4-5-0.jar</file>
+         </configuration>
+      </execution>
+
 <!-- hsqldb - 1.8.0 -->
       <execution>
          <id>hsqldb-1.8.0</id>
