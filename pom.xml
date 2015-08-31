@@ -1022,7 +1022,7 @@
             <goal>install-file</goal>
          </goals>
          <configuration>
-            <groupId>jmimemagic</groupId>
+            <groupId>net.sourceforge</groupId>
             <artifactId>jmimemagic</artifactId>
             <version>0.1.2</version>
             <packaging>jar</packaging>
