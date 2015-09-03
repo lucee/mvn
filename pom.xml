@@ -741,9 +741,9 @@
          </configuration>
       </execution>
       
-<!-- apache.http.components.client - 4.5.0 -->
+<!-- apache.http.components.client - 4.5.0.0001L -->
       <execution>
-         <id>apache.http.components.client-4.5.0</id>
+         <id>apache.http.components.client-4.5.0.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -751,12 +751,12 @@
          <configuration>
             <groupId>apache.http.components</groupId>
             <artifactId>client</artifactId>
-            <version>4.5.0</version>
+            <version>4.5.0.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/apache-http-components-client-4-5-0.jar</file>
+            <file>${dir.src}/apache-http-components-client-4-5-0-0001L.jar</file>
          </configuration>
       </execution>
 
