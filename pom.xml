@@ -760,6 +760,25 @@
          </configuration>
       </execution>
 
+<!-- apache.http.components.client - 4.5.0.0002L -->
+      <execution>
+         <id>apache.http.components.client-4.5.0.0002L</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>apache.http.components</groupId>
+            <artifactId>client</artifactId>
+            <version>4.5.0.0002L</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/apache-http-components-client-4-5-0-0002L.jar</file>
+         </configuration>
+      </execution>
+
 <!-- apache.http.components.core - 4.4.1 -->
       <execution>
          <id>apache.http.components.core-4.4.1</id>
