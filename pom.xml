@@ -377,6 +377,7 @@
             <file>${dir.src}/apache-poi-tm-extractors-3-8-0.jar</file>
          </configuration>
       </execution>
+
 <!-- org.apache.poi - 3.8.0 -->
       <execution>
          <id>org.apache.poi-3.8.0</id>
@@ -395,6 +396,46 @@
             <file>${dir.src}/org-apache-poi-3-8-0.jar</file>
          </configuration>
       </execution>
+
+<!-- org.apache.poi - 2.5.1 -->
+      <execution>
+         <id>org.apache.poi-2.5.1</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>org.apache</groupId>
+            <artifactId>poi</artifactId>
+            <version>2.5.1</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/org-apache-poi-2-5-1.jar</file>
+         </configuration>
+      </execution>
+
+<!-- tm.extractors - 0.4.0 -->
+      <execution>
+         <id>tm.extractors-0.4.0</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>tm</groupId>
+            <artifactId>extractors</artifactId>
+            <version>0.4.0</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/tm-extractors-0-4-0.jar</file>
+         </configuration>
+      </execution>
+
+
 <!-- apache.ws.axis.ant - 1.4.0 -->
       <execution>
          <id>apache.ws.axis.ant-1.4.0</id>
