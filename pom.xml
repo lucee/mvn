@@ -548,6 +548,25 @@
          </configuration>
       </execution>
 
+<!-- apache.xml.xerces - 2.11.0 -->
+      <execution>
+         <id>apache.xml.xerces-2.11.0</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>apache.xml</groupId>
+            <artifactId>xerces</artifactId>
+            <version>2.11.0</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/apache-xml-xerces-2-11-0.jar</file>
+         </configuration>
+      </execution>
+
 <!-- backport.util.concurrent - 2.2.0 -->
       <execution>
          <id>backport.util.concurrent-2.2.0</id>
@@ -1725,6 +1744,27 @@
             <file>${dir.src}/xml-apis-1-3-4.jar</file>
          </configuration>
       </execution>
+
+<!-- xml.apis - 1.4.1 -->
+      <execution>
+         <id>xml.apis-1.4.1</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>xml</groupId>
+            <artifactId>apis</artifactId>
+            <version>1.4.1</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/xml-apis-1-4-1.jar</file>
+         </configuration>
+      </execution>
+
+
 <!-- xmlbeans - 2.3.0.r540734 -->
       <execution>
          <id>xmlbeans-2.3.0.r540734</id>
