@@ -565,7 +565,7 @@
             <file>${dir.src}/apache-xml-xalan-serializer-2-7-2-0001L.jar</file>
          </configuration>
       </execution>
-      
+
 <!-- apache.xml.xerces - 2.9.1 -->
       <execution>
          <id>apache.xml.xerces-2.9.1</id>
@@ -1169,6 +1169,45 @@
             <file>${dir.src}/jfreechart-1-0-12.jar</file>
          </configuration>
       </execution>
+
+<!-- org.jfree.chart - 1.0.19 -->
+      <execution>
+         <id>org.jfree.chart-1.0.19</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>org.jfree</groupId>
+            <artifactId>chart</artifactId>
+            <version>1.0.19</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/org-jfree-chart-1-0-19.jar</file>
+         </configuration>
+      </execution>
+<!-- org.jfree.common - 1.0.23 -->
+      <execution>
+         <id>org.jfree.common-1.0.23</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>org.jfree</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0.23</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/org-jfree-common-1-0-23.jar</file>
+         </configuration>
+      </execution>
+
+
 <!-- jmimemagic - 0.1.2 -->
       <execution>
          <id>jmimemagic-0.1.2</id>
