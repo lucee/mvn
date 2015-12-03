@@ -1642,10 +1642,9 @@
             <file>${dir.src}/sun-jai-core-1-2-1-0002L.jar</file>
          </configuration>
       </execution>
-      
-<!-- sun.jndi.ldap - 1.2.4 -->
+<!-- sun.jndi.ldap - 1.2.4.0001L -->
       <execution>
-         <id>sun.jndi.ldap-1.2.4</id>
+         <id>sun.jndi.ldap-1.2.4.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1653,17 +1652,17 @@
          <configuration>
             <groupId>sun.jndi</groupId>
             <artifactId>ldap</artifactId>
-            <version>1.2.4</version>
+            <version>1.2.4.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/sun-jndi-ldap-1-2-4.jar</file>
+            <file>${dir.src}/sun-jndi-ldap-1-2-4-0001L.jar</file>
          </configuration>
       </execution>
-<!-- sun.jndi.ldapbp - 1.2.4 -->
+<!-- sun.jndi.ldapbp - 1.2.4.0001L -->
       <execution>
-         <id>sun.jndi.ldapbp-1.2.4</id>
+         <id>sun.jndi.ldapbp-1.2.4.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1671,17 +1670,17 @@
          <configuration>
             <groupId>sun.jndi</groupId>
             <artifactId>ldapbp</artifactId>
-            <version>1.2.4</version>
+            <version>1.2.4.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/sun-jndi-ldapbp-1-2-4.jar</file>
+            <file>${dir.src}/sun-jndi-ldapbp-1-2-4-0001L.jar</file>
          </configuration>
       </execution>
-<!-- sun.jndi.ldapsec - 1.2.4 -->
+<!-- sun.jndi.ldapsec - 1.2.4.0001L -->
       <execution>
-         <id>sun.jndi.ldapsec-1.2.4</id>
+         <id>sun.jndi.ldapsec-1.2.4.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1689,12 +1688,12 @@
          <configuration>
             <groupId>sun.jndi</groupId>
             <artifactId>ldapsec</artifactId>
-            <version>1.2.4</version>
+            <version>1.2.4.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/sun-jndi-ldapsec-1-2-4.jar</file>
+            <file>${dir.src}/sun-jndi-ldapsec-1-2-4-0001L.jar</file>
          </configuration>
       </execution>
 <!-- sun.jndi.providerutil - 1.2.4 -->
