@@ -1971,6 +1971,44 @@
          </configuration>
       </execution>
 
+<!-- jets3t - 0.9.4.0001L -->
+      <execution>
+         <id>jets3t-0.9.4.0001L</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>jets3t</groupId>
+            <artifactId>jets3t</artifactId>
+            <version>0.9.4.0001L</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/jets3t-0-9-4-0001L.jar</file>
+         </configuration>
+      </execution>
+
+<!-- javax.activation - 1.1.1 -->
+      <execution>
+         <id>javax.activation-1.1.1</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>javax</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.1.1</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/javax-activation-1-1-1.jar</file>
+         </configuration>
+      </execution>
+
 		        
 		    </executions>
 		</plugin>
