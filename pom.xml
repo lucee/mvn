@@ -1732,6 +1732,25 @@
             <file>${dir.src}/sun-mail-1-3-3-01.jar</file>
          </configuration>
       </execution>
+<!-- sun.mail - 1.4.7 -->
+      <execution>
+         <id>sun.mail-1.4.7</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>sun</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.7</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/sun-mail-1-4-7.jar</file>
+         </configuration>
+      </execution>
+      
 <!-- sun.security.jaas - 1.2.4 -->
       <execution>
          <id>sun.security.jaas-1.2.4</id>
