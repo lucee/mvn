@@ -1769,6 +1769,25 @@
          </configuration>
       </execution>
 
+<!-- javax.mail.activation - 1.4.7.0001L -->
+      <execution>
+         <id>javax.mail.activation-1.4.7.0001L</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>javax.mail</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.4.7.0001L</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/javax-mail-activation-1-4-7-0001L.jar</file>
+         </configuration>
+      </execution>
+
 <!-- sun.security.jaas - 1.2.4 -->
       <execution>
          <id>sun.security.jaas-1.2.4</id>
