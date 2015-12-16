@@ -1353,6 +1353,27 @@
             <file>${dir.src}/metadata-extractor-2-6-4.jar</file>
          </configuration>
       </execution>
+
+<!-- metadata.extractor - 2.8.1 -->
+      <execution>
+         <id>metadata.extractor-2.8.1</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>metadata</groupId>
+            <artifactId>extractor</artifactId>
+            <version>2.8.1</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/metadata-extractor-2-8-1.jar</file>
+         </configuration>
+      </execution>
+
+
 <!-- org.objectweb.asm.all - 4.0.0 -->
       <execution>
          <id>org.objectweb.asm.all-4.0.0</id>
@@ -2024,6 +2045,25 @@
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
             <file>${dir.src}/smtp-dumbster-1-6-0.jar</file>
+         </configuration>
+      </execution>
+      
+<!-- xmpcore - 5.1.2 -->
+      <execution>
+         <id>xmpcore-5.1.2</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>xmpcore</groupId>
+            <artifactId>xmpcore</artifactId>
+            <version>5.1.2</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/xmpcore-5-1-2.jar</file>
          </configuration>
       </execution>
 
