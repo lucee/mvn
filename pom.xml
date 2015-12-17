@@ -435,28 +435,9 @@
          </configuration>
       </execution>
 
-
-<!-- apache.ws.axis.ant - 1.4.0 -->
+<!-- apache.ws.axis - 1.4.0.L006 -->
       <execution>
-         <id>apache.ws.axis.ant-1.4.0</id>
-         <phase>initialize</phase>
-         <goals>
-            <goal>install-file</goal>
-         </goals>
-         <configuration>
-            <groupId>apache.ws.axis</groupId>
-            <artifactId>ant</artifactId>
-            <version>1.4.0</version>
-            <packaging>jar</packaging>
-            <createChecksum>true</createChecksum>
-            <generatePom>true</generatePom>
-            <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/apache-ws-axis-ant-1-4-0.jar</file>
-         </configuration>
-      </execution>
-<!-- apache.ws.axis - 1.4.0.L003 -->
-      <execution>
-         <id>apache.ws.axis-1.4.0.L003</id>
+         <id>apache.ws.axis-1.4.0.L006</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -464,31 +445,12 @@
          <configuration>
             <groupId>apache.ws</groupId>
             <artifactId>axis</artifactId>
-            <version>1.4.0.L003</version>
+            <version>1.4.0.L006</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/apache-ws-axis-1-4-0-L003.jar</file>
-         </configuration>
-      </execution>
-
-<!-- apache.ws.axis - 1.4.0.L004 -->
-      <execution>
-         <id>apache.ws.axis-1.4.0.L004</id>
-         <phase>initialize</phase>
-         <goals>
-            <goal>install-file</goal>
-         </goals>
-         <configuration>
-            <groupId>apache.ws</groupId>
-            <artifactId>axis</artifactId>
-            <version>1.4.0.L004</version>
-            <packaging>jar</packaging>
-            <createChecksum>true</createChecksum>
-            <generatePom>true</generatePom>
-            <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/apache-ws-axis-1-4-0-L004.jar</file>
+            <file>${dir.src}/apache-ws-axis-1-4-0-L006.jar</file>
          </configuration>
       </execution>
 
