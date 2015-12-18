@@ -1480,24 +1480,6 @@
             <file>${dir.src}/sun-jai-codec-1-1-2.jar</file>
          </configuration>
       </execution>
-<!-- sun.jai.core - 1.2.1 -->
-      <execution>
-         <id>sun.jai.core-1.2.1</id>
-         <phase>initialize</phase>
-         <goals>
-            <goal>install-file</goal>
-         </goals>
-         <configuration>
-            <groupId>sun.jai</groupId>
-            <artifactId>core</artifactId>
-            <version>1.2.1</version>
-            <packaging>jar</packaging>
-            <createChecksum>true</createChecksum>
-            <generatePom>true</generatePom>
-            <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/sun-jai-core-1-2-1.jar</file>
-         </configuration>
-      </execution>
 <!-- sun.jai.core - 1.2.1.0002L -->
       <execution>
          <id>sun.jai.core-1.2.1.0002L</id>
