@@ -640,6 +640,45 @@
             <file>${dir.src}/flex-messaging-common-3-3-0-22497.jar</file>
          </configuration>
       </execution>
+<!-- flying.saucer.core - 9.0.8 -->
+      <execution>
+         <id>flying.saucer.core-9.0.8</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>flying.saucer</groupId>
+            <artifactId>core</artifactId>
+            <version>9.0.8</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/flying-saucer-core-9-0-8.jar</file>
+         </configuration>
+      </execution>
+<!-- flying.saucer.pdf - 9.0.8.0001L -->
+      <execution>
+         <id>flying.saucer.pdf-9.0.8.0001L</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>flying.saucer</groupId>
+            <artifactId>pdf</artifactId>
+            <version>9.0.8.0001L</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/flying-saucer-pdf-9-0-8-0001L.jar</file>
+         </configuration>
+      </execution>
+
+
+      
 <!-- flex.messaging.core - 3.3.0.22497 -->
       <execution>
          <id>flex.messaging.core-3.3.0.22497</id>
@@ -1153,9 +1192,9 @@
             <file>${dir.src}/junit-3-8-1.jar</file>
          </configuration>
       </execution>
-<!-- lowagie.itext - 2.1.2.1 -->
+<!-- lowagie.itext - 2.1.7.0001L -->
       <execution>
-         <id>lowagie.itext-2.1.2.1</id>
+         <id>lowagie.itext-2.1.7.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1163,12 +1202,12 @@
          <configuration>
             <groupId>lowagie</groupId>
             <artifactId>itext</artifactId>
-            <version>2.1.2.1</version>
+            <version>2.1.7.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/lowagie-itext-2-1-2-1.jar</file>
+            <file>${dir.src}/lowagie-itext-2-1-7-0001L.jar</file>
          </configuration>
       </execution>
 <!-- metadata.extractor - 2.6.4 -->
