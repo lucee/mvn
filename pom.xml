@@ -307,24 +307,7 @@
             <file>${dir.src}/org-apache-oro-2-0-8.jar</file>
          </configuration>
       </execution>
-<!-- log4j - 1.2.16 -->
-      <execution>
-         <id>log4j-1.2.16</id>
-         <phase>initialize</phase>
-         <goals>
-            <goal>install-file</goal>
-         </goals>
-         <configuration>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.16</version>
-            <packaging>jar</packaging>
-            <createChecksum>true</createChecksum>
-            <generatePom>true</generatePom>
-            <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/log4j-1-2-16.jar</file>
-         </configuration>
-      </execution>
+
 <!-- apache.poi.ooxml.schemas - 3.8.0.0002L -->
       <execution>
          <id>apache.poi.ooxml.schemas-3.8.0.0002L</id>
@@ -1680,9 +1663,9 @@
             <file>${dir.src}/sun-xml-wsdl4j-1-5-1.jar</file>
          </configuration>
       </execution>
-<!-- sun.xml.saaj - 1.2.1 -->
+<!-- sun.xml.saaj - 1.2.1.0001L -->
       <execution>
-         <id>sun.xml.saaj-1.2.1</id>
+         <id>sun.xml.saaj-1.2.1.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1690,12 +1673,12 @@
          <configuration>
             <groupId>sun.xml</groupId>
             <artifactId>saaj</artifactId>
-            <version>1.2.1</version>
+            <version>1.2.1.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/sun-xml-saaj-1-2-1.jar</file>
+            <file>${dir.src}/sun-xml-saaj-1-2-1-0001L.jar</file>
          </configuration>
       </execution>
 <!-- tagsoup - 1.2.1 -->
