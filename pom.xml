@@ -1702,9 +1702,9 @@
             <file>${dir.src}/sun-xml-saaj-1-2-1-0001L.jar</file>
          </configuration>
       </execution>
-<!-- tagsoup - 1.2.1 -->
+<!-- tagsoup - 1.2.1.0001L -->
       <execution>
-         <id>tagsoup-1.2.1</id>
+         <id>tagsoup-1.2.1.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1712,12 +1712,12 @@
          <configuration>
             <groupId>tagsoup</groupId>
             <artifactId>tagsoup</artifactId>
-            <version>1.2.1</version>
+            <version>1.2.1.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/tagsoup-1-2-1.jar</file>
+            <file>${dir.src}/tagsoup-1-2-1-0001L.jar</file>
          </configuration>
       </execution>
 <!-- w3c.dom - 1.1.0 -->
