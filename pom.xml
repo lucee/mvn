@@ -1005,9 +1005,9 @@
             <file>${dir.src}/jencrypt-1-4-2-04.jar</file>
          </configuration>
       </execution>
-<!-- jffmpeg - 1.4.2.09 -->
+<!-- jffmpeg - 1.4.2.09001L -->
       <execution>
-         <id>jffmpeg-1.4.2.09</id>
+         <id>jffmpeg-1.4.2.09001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1015,12 +1015,12 @@
          <configuration>
             <groupId>jffmpeg</groupId>
             <artifactId>jffmpeg</artifactId>
-            <version>1.4.2.09</version>
+            <version>1.4.2.09001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/jffmpeg-1-4-2-09.jar</file>
+            <file>${dir.src}/jffmpeg-1-4-2-09001L.jar</file>
          </configuration>
       </execution>
 <!-- jfreechart.patch - 1.0.12 -->
