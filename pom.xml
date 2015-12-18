@@ -1266,9 +1266,9 @@
       </execution>
 
 
-<!-- org.objectweb.asm.all - 4.0.0 -->
+<!-- org.objectweb.asm.all - 4.0.0.0001L -->
       <execution>
-         <id>org.objectweb.asm.all-4.0.0</id>
+         <id>org.objectweb.asm.all-4.0.0.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1276,12 +1276,12 @@
          <configuration>
             <groupId>org.objectweb.asm</groupId>
             <artifactId>all</artifactId>
-            <version>4.0.0</version>
+            <version>4.0.0.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/org-objectweb-asm-all-4-0-0.jar</file>
+            <file>${dir.src}/org-objectweb-asm-all-4-0-0-0001L.jar</file>
          </configuration>
       </execution>
 <!-- ojdbc14 - 0.0.0 -->
