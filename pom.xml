@@ -1924,9 +1924,9 @@
          </configuration>
       </execution>
 
-<!-- jets3t - 0.9.4.0002L -->
+<!-- jets3t - 0.9.4.0003L -->
       <execution>
-         <id>jets3t-0.9.4.0002L</id>
+         <id>jets3t-0.9.4.0003L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1934,16 +1934,14 @@
          <configuration>
             <groupId>jets3t</groupId>
             <artifactId>jets3t</artifactId>
-            <version>0.9.4.0002L</version>
+            <version>0.9.4.0003L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/jets3t-0-9-4-0002L.jar</file>
+            <file>${dir.src}/jets3t-0-9-4-0003L.jar</file>
          </configuration>
       </execution>
-
-
 
 <!-- javax.activation - 1.1.1 -->
       <execution>
