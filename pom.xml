@@ -420,9 +420,9 @@
          </configuration>
       </execution>
 
-<!-- apache.ws.axis - 1.4.0.L006 -->
+<!-- apache.ws.axis - 1.4.0.L007 -->
       <execution>
-         <id>apache.ws.axis-1.4.0.L006</id>
+         <id>apache.ws.axis-1.4.0.L007</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -430,12 +430,12 @@
          <configuration>
             <groupId>apache.ws</groupId>
             <artifactId>axis</artifactId>
-            <version>1.4.0.L006</version>
+            <version>1.4.0.L007</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/apache-ws-axis-1-4-0-L006.jar</file>
+            <file>${dir.src}/apache-ws-axis-1-4-0-L007.jar</file>
          </configuration>
       </execution>
 
@@ -1702,9 +1702,9 @@
             <file>${dir.src}/sun-xml-jaxrpc-1-2-1-0001L.jar</file>
          </configuration>
       </execution>
-<!-- sun.xml.wsdl4j - 1.5.1 -->
+<!-- sun.xml.wsdl4j - 1.5.1.0001L -->
       <execution>
-         <id>sun.xml.wsdl4j-1.5.1</id>
+         <id>sun.xml.wsdl4j-1.5.1.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1712,12 +1712,12 @@
          <configuration>
             <groupId>sun.xml</groupId>
             <artifactId>wsdl4j</artifactId>
-            <version>1.5.1</version>
+            <version>1.5.1.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/sun-xml-wsdl4j-1-5-1.jar</file>
+            <file>${dir.src}/sun-xml-wsdl4j-1-5-1-0001L.jar</file>
          </configuration>
       </execution>
 <!-- sun.xml.saaj - 1.2.1.0001L -->
