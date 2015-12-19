@@ -1302,9 +1302,9 @@
             <file>${dir.src}/ojdbc14-0-0-0.jar</file>
          </configuration>
       </execution>
-<!-- openamf.astranslator - 1.5.8 -->
+<!-- openamf.astranslator - 1.5.8.0001L -->
       <execution>
-         <id>openamf.astranslator-1.5.8</id>
+         <id>openamf.astranslator-1.5.8.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1312,17 +1312,17 @@
          <configuration>
             <groupId>openamf</groupId>
             <artifactId>astranslator</artifactId>
-            <version>1.5.8</version>
+            <version>1.5.8.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/openamf-astranslator-1-5-8.jar</file>
+            <file>${dir.src}/openamf-astranslator-1-5-8-0001L.jar</file>
          </configuration>
       </execution>
-<!-- openamf - 1.5.8 -->
+<!-- openamf - 1.5.8.0001L -->
       <execution>
-         <id>openamf-1.5.8</id>
+         <id>openamf-1.5.8.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1330,12 +1330,12 @@
          <configuration>
             <groupId>openamf</groupId>
             <artifactId>openamf</artifactId>
-            <version>1.5.8</version>
+            <version>1.5.8.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/openamf-1-5-8.jar</file>
+            <file>${dir.src}/openamf-1-5-8-0001L.jar</file>
          </configuration>
       </execution>
 <!-- PDFBox - 0.7.3 -->
