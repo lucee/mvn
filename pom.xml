@@ -657,9 +657,9 @@
             <file>${dir.src}/ESAPI-2-0-1.jar</file>
          </configuration>
       </execution>
-<!-- flex.messaging.common - 3.3.0.22497 -->
+<!-- flex.messaging.common - 3.3.0.224970001L -->
       <execution>
-         <id>flex.messaging.common-3.3.0.22497</id>
+         <id>flex.messaging.common-3.3.0.224970001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -667,14 +667,33 @@
          <configuration>
             <groupId>flex.messaging</groupId>
             <artifactId>common</artifactId>
-            <version>3.3.0.22497</version>
+            <version>3.3.0.224970001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/flex-messaging-common-3-3-0-22497.jar</file>
+            <file>${dir.src}/flex-messaging-common-3-3-0-224970001L.jar</file>
          </configuration>
       </execution>
+<!-- flex.messaging.core - 3.3.0.224970001L -->
+      <execution>
+         <id>flex.messaging.core-3.3.0.224970001L</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>flex.messaging</groupId>
+            <artifactId>core</artifactId>
+            <version>3.3.0.224970001L</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/flex-messaging-core-3-3-0-224970001L.jar</file>
+         </configuration>
+      </execution>
+
 <!-- flying.saucer.core - 9.0.8 -->
       <execution>
          <id>flying.saucer.core-9.0.8</id>
@@ -713,25 +732,6 @@
       </execution>
 
 
-
-<!-- flex.messaging.core - 3.3.0.22497 -->
-      <execution>
-         <id>flex.messaging.core-3.3.0.22497</id>
-         <phase>initialize</phase>
-         <goals>
-            <goal>install-file</goal>
-         </goals>
-         <configuration>
-            <groupId>flex.messaging</groupId>
-            <artifactId>core</artifactId>
-            <version>3.3.0.22497</version>
-            <packaging>jar</packaging>
-            <createChecksum>true</createChecksum>
-            <generatePom>true</generatePom>
-            <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/flex-messaging-core-3-3-0-22497.jar</file>
-         </configuration>
-      </execution>
 <!-- flex.messaging.opt - 3.3.0.22497 -->
       <execution>
          <id>flex.messaging.opt-3.3.0.22497</id>
