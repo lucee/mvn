@@ -1448,9 +1448,9 @@
             <file>${dir.src}/ss-css2-0-9-4.jar</file>
          </configuration>
       </execution>
-<!-- stax.api - 1.0.1 -->
+<!-- stax.api - 1.0.1.0001L -->
       <execution>
-         <id>stax.api-1.0.1</id>
+         <id>stax.api-1.0.1.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1458,12 +1458,12 @@
          <configuration>
             <groupId>stax</groupId>
             <artifactId>api</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.1.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/stax-api-1-0-1.jar</file>
+            <file>${dir.src}/stax-api-1-0-1-0001L.jar</file>
          </configuration>
       </execution>
 <!-- sun.activation - 1.1.0 -->
