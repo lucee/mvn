@@ -125,9 +125,9 @@
             <file>${dir.src}/org-apache-commons-discovery-0-4-0.jar</file>
          </configuration>
       </execution>
-<!-- org.apache.commons.email - 1.2.0.0001L -->
+<!-- org.apache.commons.email - 1.2.0.0002L -->
       <execution>
-         <id>org.apache.commons.email-1.2.0.0001L</id>
+         <id>org.apache.commons.email-1.2.0.0002L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -135,12 +135,12 @@
          <configuration>
             <groupId>org.apache.commons</groupId>
             <artifactId>email</artifactId>
-            <version>1.2.0.0001L</version>
+            <version>1.2.0.0002L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/org-apache-commons-email-1-2-0-0001L.jar</file>
+            <file>${dir.src}/org-apache-commons-email-1-2-0-0002L.jar</file>
          </configuration>
       </execution>
 
@@ -1647,9 +1647,9 @@
          </configuration>
       </execution> -->
 
-<!-- javax.mail.activation - 1.4.7.0001L -->
+<!-- javax.mail.activation - 1.4.7.0002L -->
       <execution>
-         <id>javax.mail.activation-1.4.7.0001L</id>
+         <id>javax.mail.activation-1.4.7.0002L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1657,12 +1657,12 @@
          <configuration>
             <groupId>javax.mail</groupId>
             <artifactId>activation</artifactId>
-            <version>1.4.7.0001L</version>
+            <version>1.4.7.0002L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/javax-mail-activation-1-4-7-0001L.jar</file>
+            <file>${dir.src}/javax-mail-activation-1-4-7-0002L.jar</file>
          </configuration>
       </execution>
 
@@ -1924,9 +1924,9 @@
          </configuration>
       </execution>
 
-<!-- jets3t - 0.9.4.0003L -->
+<!-- jets3t - 0.9.4.0004L -->
       <execution>
-         <id>jets3t-0.9.4.0003L</id>
+         <id>jets3t-0.9.4.0004L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1934,12 +1934,12 @@
          <configuration>
             <groupId>jets3t</groupId>
             <artifactId>jets3t</artifactId>
-            <version>0.9.4.0003L</version>
+            <version>0.9.4.0004L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/jets3t-0-9-4-0003L.jar</file>
+            <file>${dir.src}/jets3t-0-9-4-0004L.jar</file>
          </configuration>
       </execution>
 
