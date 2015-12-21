@@ -308,9 +308,9 @@
          </configuration>
       </execution>
 
-<!-- apache.poi.ooxml.schemas - 3.8.0.0002L -->
+<!-- apache.poi.ooxml.schemas - 3.8.0.0003L -->
       <execution>
-         <id>apache.poi.ooxml.schemas-3.8.0.0002L</id>
+         <id>apache.poi.ooxml.schemas-3.8.0.0003L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -318,12 +318,12 @@
          <configuration>
             <groupId>apache.poi.ooxml</groupId>
             <artifactId>schemas</artifactId>
-            <version>3.8.0.0002L</version>
+            <version>3.8.0.0003L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/apache-poi-ooxml-schemas-3-8-0-0002L.jar</file>
+            <file>${dir.src}/apache-poi-ooxml-schemas-3-8-0-0003L.jar</file>
          </configuration>
       </execution>
 <!-- org.apache.poi.ooxml - 3.8.0 -->
@@ -420,9 +420,9 @@
          </configuration>
       </execution>
 
-<!-- apache.ws.axis - 1.4.0.L007 -->
+<!-- apache.ws.axis - 1.4.0.L008 -->
       <execution>
-         <id>apache.ws.axis-1.4.0.L007</id>
+         <id>apache.ws.axis-1.4.0.L008</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -430,18 +430,18 @@
          <configuration>
             <groupId>apache.ws</groupId>
             <artifactId>axis</artifactId>
-            <version>1.4.0.L007</version>
+            <version>1.4.0.L008</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/apache-ws-axis-1-4-0-L007.jar</file>
+            <file>${dir.src}/apache-ws-axis-1-4-0-L008.jar</file>
          </configuration>
       </execution>
 
-<!-- apache.xml.xalan - 2.7.2.0004L -->
+<!-- apache.xml.xalan - 2.7.2.0005L -->
       <execution>
-         <id>apache.xml.xalan-2.7.2.0004L</id>
+         <id>apache.xml.xalan-2.7.2.0005L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -449,17 +449,17 @@
          <configuration>
             <groupId>apache.xml</groupId>
             <artifactId>xalan</artifactId>
-            <version>2.7.2.0004L</version>
+            <version>2.7.2.0005L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/apache-xml-xalan-2-7-2-0004L.jar</file>
+            <file>${dir.src}/apache-xml-xalan-2-7-2-0005L.jar</file>
          </configuration>
       </execution>
-<!-- apache.xml.xalan.serializer - 2.7.2.0004L -->
+<!-- apache.xml.xalan.serializer - 2.7.2.0005L -->
       <execution>
-         <id>apache.xml.xalan.serializer-2.7.2.0004L</id>
+         <id>apache.xml.xalan.serializer-2.7.2.0005L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -467,18 +467,18 @@
          <configuration>
             <groupId>apache.xml.xalan</groupId>
             <artifactId>serializer</artifactId>
-            <version>2.7.2.0004L</version>
+            <version>2.7.2.0005L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/apache-xml-xalan-serializer-2-7-2-0004L.jar</file>
+            <file>${dir.src}/apache-xml-xalan-serializer-2-7-2-0005L.jar</file>
          </configuration>
       </execution>
 
-<!-- apache.xml.xerces - 2.11.0.0003L -->
+<!-- apache.xml.xerces - 2.11.0.0004L -->
       <execution>
-         <id>apache.xml.xerces-2.11.0.0003L</id>
+         <id>apache.xml.xerces-2.11.0.0004L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -486,12 +486,12 @@
          <configuration>
             <groupId>apache.xml</groupId>
             <artifactId>xerces</artifactId>
-            <version>2.11.0.0003L</version>
+            <version>2.11.0.0004L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/apache-xml-xerces-2-11-0-0003L.jar</file>
+            <file>${dir.src}/apache-xml-xerces-2-11-0-0004L.jar</file>
          </configuration>
       </execution>
 
@@ -657,9 +657,9 @@
             <file>${dir.src}/ESAPI-2-0-1.jar</file>
          </configuration>
       </execution>
-<!-- flex.messaging.common - 3.3.0.224970001L -->
+<!-- flex.messaging.common - 3.3.0.224970002L -->
       <execution>
-         <id>flex.messaging.common-3.3.0.224970001L</id>
+         <id>flex.messaging.common-3.3.0.224970002L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -667,17 +667,17 @@
          <configuration>
             <groupId>flex.messaging</groupId>
             <artifactId>common</artifactId>
-            <version>3.3.0.224970001L</version>
+            <version>3.3.0.224970002L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/flex-messaging-common-3-3-0-224970001L.jar</file>
+            <file>${dir.src}/flex-messaging-common-3-3-0-224970002L.jar</file>
          </configuration>
       </execution>
-<!-- flex.messaging.core - 3.3.0.224970001L -->
+<!-- flex.messaging.core - 3.3.0.224970002L -->
       <execution>
-         <id>flex.messaging.core-3.3.0.224970001L</id>
+         <id>flex.messaging.core-3.3.0.224970002L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -685,15 +685,14 @@
          <configuration>
             <groupId>flex.messaging</groupId>
             <artifactId>core</artifactId>
-            <version>3.3.0.224970001L</version>
+            <version>3.3.0.224970002L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/flex-messaging-core-3-3-0-224970001L.jar</file>
+            <file>${dir.src}/flex-messaging-core-3-3-0-224970002L.jar</file>
          </configuration>
       </execution>
-
 <!-- flying.saucer.core - 9.0.8 -->
       <execution>
          <id>flying.saucer.core-9.0.8</id>
@@ -712,9 +711,9 @@
             <file>${dir.src}/flying-saucer-core-9-0-8.jar</file>
          </configuration>
       </execution>
-<!-- flying.saucer.pdf - 9.0.8.0001L -->
+<!-- flying.saucer.pdf - 9.0.8.0002L -->
       <execution>
-         <id>flying.saucer.pdf-9.0.8.0001L</id>
+         <id>flying.saucer.pdf-9.0.8.0002L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -722,12 +721,12 @@
          <configuration>
             <groupId>flying.saucer</groupId>
             <artifactId>pdf</artifactId>
-            <version>9.0.8.0001L</version>
+            <version>9.0.8.0002L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/flying-saucer-pdf-9-0-8-0001L.jar</file>
+            <file>${dir.src}/flying-saucer-pdf-9-0-8-0002L.jar</file>
          </configuration>
       </execution>
 
@@ -1117,9 +1116,9 @@
          </configuration>
       </execution>
 
-<!-- org.jfree.chart - 1.0.19 -->
+<!-- org.jfree.chart - 1.0.19.0001L -->
       <execution>
-         <id>org.jfree.chart-1.0.19</id>
+         <id>org.jfree.chart-1.0.19.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1127,17 +1126,17 @@
          <configuration>
             <groupId>org.jfree</groupId>
             <artifactId>chart</artifactId>
-            <version>1.0.19</version>
+            <version>1.0.19.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/org-jfree-chart-1-0-19.jar</file>
+            <file>${dir.src}/org-jfree-chart-1-0-19-0001L.jar</file>
          </configuration>
       </execution>
-<!-- org.jfree.common - 1.0.23 -->
+<!-- org.jfree.common - 1.0.23.0001L -->
       <execution>
-         <id>org.jfree.common-1.0.23</id>
+         <id>org.jfree.common-1.0.23.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1145,15 +1144,14 @@
          <configuration>
             <groupId>org.jfree</groupId>
             <artifactId>common</artifactId>
-            <version>1.0.23</version>
+            <version>1.0.23.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/org-jfree-common-1-0-23.jar</file>
+            <file>${dir.src}/org-jfree-common-1-0-23-0001L.jar</file>
          </configuration>
       </execution>
-
 
 <!-- jmimemagic - 0.1.2 -->
       <execution>
@@ -1191,9 +1189,9 @@
             <file>${dir.src}/org-joda-time-2-1-0.jar</file>
          </configuration>
       </execution>
-<!-- jpedal.gpl - 3.51.12.0001L -->
+<!-- jpedal.gpl - 3.51.12.0002L -->
       <execution>
-         <id>jpedal.gpl-3.51.12.0001L</id>
+         <id>jpedal.gpl-3.51.12.0002L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1201,12 +1199,12 @@
          <configuration>
             <groupId>jpedal</groupId>
             <artifactId>gpl</artifactId>
-            <version>3.51.12.0001L</version>
+            <version>3.51.12.0002L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/jpedal-gpl-3-51-12-0001L.jar</file>
+            <file>${dir.src}/jpedal-gpl-3-51-12-0002L.jar</file>
          </configuration>
       </execution>
 <!-- junit - 3.8.1 -->
@@ -1227,9 +1225,9 @@
             <file>${dir.src}/junit-3-8-1.jar</file>
          </configuration>
       </execution>
-<!-- lowagie.itext - 2.1.7.0002L -->
+<!-- lowagie.itext - 2.1.7.0003L -->
       <execution>
-         <id>lowagie.itext-2.1.7.0002L</id>
+         <id>lowagie.itext-2.1.7.0003L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1237,18 +1235,18 @@
          <configuration>
             <groupId>lowagie</groupId>
             <artifactId>itext</artifactId>
-            <version>2.1.7.0002L</version>
+            <version>2.1.7.0003L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/lowagie-itext-2-1-7-0002L.jar</file>
+            <file>${dir.src}/lowagie-itext-2-1-7-0003L.jar</file>
          </configuration>
       </execution>
 
-<!-- metadata.extractor - 2.8.1.0001L -->
+<!-- metadata.extractor - 2.8.1.0002L -->
       <execution>
-         <id>metadata.extractor-2.8.1.0001L</id>
+         <id>metadata.extractor-2.8.1.0002L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1256,12 +1254,12 @@
          <configuration>
             <groupId>metadata</groupId>
             <artifactId>extractor</artifactId>
-            <version>2.8.1.0001L</version>
+            <version>2.8.1.0002L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/metadata-extractor-2-8-1-0001L.jar</file>
+            <file>${dir.src}/metadata-extractor-2-8-1-0002L.jar</file>
          </configuration>
       </execution>
 
@@ -1375,9 +1373,9 @@
          </configuration>
       </execution>
 
-<!-- resolver - 1.2.0.0001L -->
+<!-- resolver - 1.2.0.0002L -->
       <execution>
-         <id>resolver-1.2.0.0001L</id>
+         <id>resolver-1.2.0.0002L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1385,12 +1383,12 @@
          <configuration>
             <groupId>resolver</groupId>
             <artifactId>resolver</artifactId>
-            <version>1.2.0.0001L</version>
+            <version>1.2.0.0002L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/resolver-1-2-0-0001L.jar</file>
+            <file>${dir.src}/resolver-1-2-0-0002L.jar</file>
          </configuration>
       </execution>
 
@@ -1448,9 +1446,9 @@
             <file>${dir.src}/ss-css2-0-9-4.jar</file>
          </configuration>
       </execution>
-<!-- stax.api - 1.0.1.0001L -->
+<!-- stax.api - 1.0.1.0002L -->
       <execution>
-         <id>stax.api-1.0.1.0001L</id>
+         <id>stax.api-1.0.1.0002L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1458,12 +1456,12 @@
          <configuration>
             <groupId>stax</groupId>
             <artifactId>api</artifactId>
-            <version>1.0.1.0001L</version>
+            <version>1.0.1.0002L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/stax-api-1-0-1-0001L.jar</file>
+            <file>${dir.src}/stax-api-1-0-1-0002L.jar</file>
          </configuration>
       </execution>
 <!-- sun.activation - 1.1.0 -->
@@ -1684,9 +1682,9 @@
             <file>${dir.src}/sun-security-jaas-1-2-4.jar</file>
          </configuration>
       </execution>
-<!-- sun.xml.jaxrpc - 1.2.1.0001L -->
+<!-- sun.xml.jaxrpc - 1.2.1.0002L -->
       <execution>
-         <id>sun.xml.jaxrpc-1.2.1.0001L</id>
+         <id>sun.xml.jaxrpc-1.2.1.0002L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1694,17 +1692,17 @@
          <configuration>
             <groupId>sun.xml</groupId>
             <artifactId>jaxrpc</artifactId>
-            <version>1.2.1.0001L</version>
+            <version>1.2.1.0002L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/sun-xml-jaxrpc-1-2-1-0001L.jar</file>
+            <file>${dir.src}/sun-xml-jaxrpc-1-2-1-0002L.jar</file>
          </configuration>
       </execution>
-<!-- sun.xml.wsdl4j - 1.5.1.0001L -->
+<!-- sun.xml.wsdl4j - 1.5.1.0002L -->
       <execution>
-         <id>sun.xml.wsdl4j-1.5.1.0001L</id>
+         <id>sun.xml.wsdl4j-1.5.1.0002L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1712,12 +1710,12 @@
          <configuration>
             <groupId>sun.xml</groupId>
             <artifactId>wsdl4j</artifactId>
-            <version>1.5.1.0001L</version>
+            <version>1.5.1.0002L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/sun-xml-wsdl4j-1-5-1-0001L.jar</file>
+            <file>${dir.src}/sun-xml-wsdl4j-1-5-1-0002L.jar</file>
          </configuration>
       </execution>
 <!-- sun.xml.saaj - 1.2.1.0001L -->
@@ -1738,9 +1736,9 @@
             <file>${dir.src}/sun-xml-saaj-1-2-1-0001L.jar</file>
          </configuration>
       </execution>
-<!-- tagsoup - 1.2.1.0001L -->
+<!-- tagsoup - 1.2.1.0002L -->
       <execution>
-         <id>tagsoup-1.2.1.0001L</id>
+         <id>tagsoup-1.2.1.0002L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1748,12 +1746,12 @@
          <configuration>
             <groupId>tagsoup</groupId>
             <artifactId>tagsoup</artifactId>
-            <version>1.2.1.0001L</version>
+            <version>1.2.1.0002L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/tagsoup-1-2-1-0001L.jar</file>
+            <file>${dir.src}/tagsoup-1-2-1-0002L.jar</file>
          </configuration>
       </execution>
 <!-- w3c.dom - 1.1.0 -->
@@ -1905,9 +1903,9 @@
          </configuration>
       </execution>
       
-<!-- xmpcore - 5.1.2.0001L -->
+<!-- xmpcore - 5.1.2.0002L -->
       <execution>
-         <id>xmpcore-5.1.2.0001L</id>
+         <id>xmpcore-5.1.2.0002L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1915,18 +1913,18 @@
          <configuration>
             <groupId>xmpcore</groupId>
             <artifactId>xmpcore</artifactId>
-            <version>5.1.2.0001L</version>
+            <version>5.1.2.0002L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/xmpcore-5-1-2-0001L.jar</file>
+            <file>${dir.src}/xmpcore-5-1-2-0002L.jar</file>
          </configuration>
       </execution>
 
-<!-- jets3t - 0.9.4.0004L -->
+<!-- jets3t - 0.9.4.0005L -->
       <execution>
-         <id>jets3t-0.9.4.0004L</id>
+         <id>jets3t-0.9.4.0005L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -1934,12 +1932,12 @@
          <configuration>
             <groupId>jets3t</groupId>
             <artifactId>jets3t</artifactId>
-            <version>0.9.4.0004L</version>
+            <version>0.9.4.0005L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/jets3t-0-9-4-0004L.jar</file>
+            <file>${dir.src}/jets3t-0-9-4-0005L.jar</file>
          </configuration>
       </execution>
 
