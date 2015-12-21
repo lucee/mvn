@@ -1189,24 +1189,7 @@
             <file>${dir.src}/org-joda-time-2-1-0.jar</file>
          </configuration>
       </execution>
-<!-- jpedal.gpl - 3.51.12.0002L -->
-      <execution>
-         <id>jpedal.gpl-3.51.12.0002L</id>
-         <phase>initialize</phase>
-         <goals>
-            <goal>install-file</goal>
-         </goals>
-         <configuration>
-            <groupId>jpedal</groupId>
-            <artifactId>gpl</artifactId>
-            <version>3.51.12.0002L</version>
-            <packaging>jar</packaging>
-            <createChecksum>true</createChecksum>
-            <generatePom>true</generatePom>
-            <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/jpedal-gpl-3-51-12-0002L.jar</file>
-         </configuration>
-      </execution>
+
 <!-- junit - 3.8.1 -->
       <execution>
          <id>junit-3.8.1</id>
