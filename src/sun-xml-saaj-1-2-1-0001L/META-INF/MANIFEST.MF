@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.5.3 
+Bundle-SymbolicName: sun.xml.saaj
+Export-Package: javax.xml.soap
+Bundle-Name: sun-xml.saaj
+Bundle-Version: 1.2.1.0001L
+Bundle-ManifestVersion: 2
+Import-Package: javax.activation,
+ javax.xml.transform,
+ org.w3c.dom
+Created-By: 1.4.2_05-b04 (Sun Microsystems Inc.)
+
+Name: javax/xml/soap
+Specification-Title: SAAJ
+Specification-Version: 1.2
+Specification-Vendor: JCP
