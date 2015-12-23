@@ -439,9 +439,9 @@
          </configuration>
       </execution>
 
-<!-- apache.xml.xalan - 2.7.2.0005L -->
+<!-- apache.xml.xalan - 2.7.2.0006L -->
       <execution>
-         <id>apache.xml.xalan-2.7.2.0005L</id>
+         <id>apache.xml.xalan-2.7.2.0006L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -449,12 +449,12 @@
          <configuration>
             <groupId>apache.xml</groupId>
             <artifactId>xalan</artifactId>
-            <version>2.7.2.0005L</version>
+            <version>2.7.2.0006L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/apache-xml-xalan-2-7-2-0005L.jar</file>
+            <file>${dir.src}/apache-xml-xalan-2-7-2-0006L.jar</file>
          </configuration>
       </execution>
 <!-- apache.xml.xalan.serializer - 2.7.2.0005L -->
