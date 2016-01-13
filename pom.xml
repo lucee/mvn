@@ -697,6 +697,26 @@
             <file>${dir.src}/ehcache-2-5-2.jar</file>
          </configuration>
       </execution>
+<!-- jta - 1.1.0 -->
+      <execution>
+         <id>jta-1.1.0</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>jta</groupId>
+            <artifactId>jta</artifactId>
+            <version>1.1.0</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/jta-1-1-0.jar</file>
+         </configuration>
+      </execution>
+
+      
 <!-- ESAPI - 2.1.0 -->
       <execution>
          <id>ESAPI-2.1.0</id>
