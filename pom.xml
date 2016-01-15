@@ -679,9 +679,9 @@
             <file>${dir.src}/concurrent-1-3-3.jar</file>
          </configuration>
       </execution>
-<!-- ehcache - 2.5.2 -->
+<!-- ehcache - 2.5.2.0001L -->
       <execution>
-         <id>ehcache-2.5.2</id>
+         <id>ehcache-2.5.2.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -689,12 +689,12 @@
          <configuration>
             <groupId>ehcache</groupId>
             <artifactId>ehcache</artifactId>
-            <version>2.5.2</version>
+            <version>2.5.2.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/ehcache-2-5-2.jar</file>
+            <file>${dir.src}/ehcache-2-5-2-0001L.jar</file>
          </configuration>
       </execution>
 <!-- jta - 1.1.0 -->
