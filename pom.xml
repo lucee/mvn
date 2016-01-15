@@ -716,7 +716,26 @@
          </configuration>
       </execution>
 
-      
+<!-- jboss.transaction - 1.2.0 -->
+      <execution>
+         <id>jboss.transaction-1.2.0</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>jboss</groupId>
+            <artifactId>transaction</artifactId>
+            <version>1.2.0</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/jboss-transaction-1-2-0.jar</file>
+         </configuration>
+      </execution>
+
+
 <!-- ESAPI - 2.1.0 -->
       <execution>
          <id>ESAPI-2.1.0</id>
