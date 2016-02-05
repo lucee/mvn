@@ -184,9 +184,9 @@
          </configuration>
       </execution>
 
-<!-- hibernate - 3.5.5.0003L -->
+<!-- hibernate - 3.5.5.0004L -->
       <execution>
-         <id>hibernate-3.5.5.0003L</id>
+         <id>hibernate-3.5.5.0004L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -194,12 +194,12 @@
          <configuration>
             <groupId>hibernate</groupId>
             <artifactId>hibernate</artifactId>
-            <version>3.5.5.0003L</version>
+            <version>3.5.5.0004L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/hibernate-3-5-5-0003L.jar</file>
+            <file>${dir.src}/hibernate-3-5-5-0004L.jar</file>
          </configuration>
       </execution>
 <!-- javassist - 3.9.0 -->
