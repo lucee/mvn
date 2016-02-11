@@ -2077,9 +2077,9 @@
          </configuration>
       </execution>
 
-<!-- jets3t - 0.9.4.0005L -->
+<!-- jets3t - 0.9.4.0006L -->
       <execution>
-         <id>jets3t-0.9.4.0005L</id>
+         <id>jets3t-0.9.4.0006L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -2087,12 +2087,31 @@
          <configuration>
             <groupId>jets3t</groupId>
             <artifactId>jets3t</artifactId>
-            <version>0.9.4.0005L</version>
+            <version>0.9.4.0006L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/jets3t-0-9-4-0005L.jar</file>
+            <file>${dir.src}/jets3t-0-9-4-0006L.jar</file>
+         </configuration>
+      </execution>
+
+<!-- mx4j.lite - 3.0.2 -->
+      <execution>
+         <id>mx4j.lite-3.0.2</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>mx4j</groupId>
+            <artifactId>lite</artifactId>
+            <version>3.0.2</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/mx4j-lite-3-0-2.jar</file>
          </configuration>
       </execution>
 
