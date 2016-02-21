@@ -128,9 +128,9 @@
          </configuration>
       </execution>
 
-   <!-- postgresql - 9.4.1207.jre6 -->
+<!-- postgresql - 9.4.1207.0001L -->
       <execution>
-         <id>postgresql-9.4.1207.jre6</id>
+         <id>postgresql-9.4.1207.0001L</id>
          <phase>initialize</phase>
          <goals>
             <goal>install-file</goal>
@@ -138,12 +138,12 @@
          <configuration>
             <groupId>postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>9.4.1207.jre6</version>
+            <version>9.4.1207.0001L</version>
             <packaging>jar</packaging>
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/postgresql-9-4-1207-jre6.jar</file>
+            <file>${dir.src}/postgresql-9-4-1207-0001L.jar</file>
          </configuration>
       </execution>
 
