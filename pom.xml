@@ -147,6 +147,25 @@
          </configuration>
       </execution>
 
+   <!-- postgresql - 9.4.1206.jdbc41 -->
+      <execution>
+         <id>postgresql-9.4.1206.jdbc41</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.4.1206.jdbc41</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/postgresql-9-4-1206-jdbc41.jar</file>
+         </configuration>
+      </execution>
+
       <!-- dom4j - 1.6.1 -->
       <execution>
          <id>dom4j-1.6.1</id>
