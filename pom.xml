@@ -2172,6 +2172,99 @@
          </configuration>
       </execution>
 
+<!-- apache.lucene.analyzers.common - 5.2.1 -->
+      <execution>
+         <id>apache.lucene.analyzers.common-5.2.1</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>apache.lucene.analyzers</groupId>
+            <artifactId>common</artifactId>
+            <version>5.2.1</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/apache-lucene-analyzers-common-5-2-1.jar</file>
+         </configuration>
+      </execution>
+<!-- apache.lucene.core - 5.2.1 -->
+      <execution>
+         <id>apache.lucene.core-5.2.1</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>apache.lucene</groupId>
+            <artifactId>core</artifactId>
+            <version>5.2.1</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/apache-lucene-core-5-2-1.jar</file>
+         </configuration>
+      </execution>
+<!-- apache.lucene.facet - 5.2.1 -->
+      <execution>
+         <id>apache.lucene.facet-5.2.1</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>apache.lucene</groupId>
+            <artifactId>facet</artifactId>
+            <version>5.2.1</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/apache-lucene-facet-5-2-1.jar</file>
+         </configuration>
+      </execution>
+<!-- apache.lucene.queries - 5.2.1 -->
+      <execution>
+         <id>apache.lucene.queries-5.2.1</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>apache.lucene</groupId>
+            <artifactId>queries</artifactId>
+            <version>5.2.1</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/apache-lucene-queries-5-2-1.jar</file>
+         </configuration>
+      </execution>
+<!-- apache.lucene.queryparser - 5.2.1 -->
+      <execution>
+         <id>apache.lucene.queryparser-5.2.1</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>apache.lucene</groupId>
+            <artifactId>queryparser</artifactId>
+            <version>5.2.1</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/apache-lucene-queryparser-5-2-1.jar</file>
+         </configuration>
+      </execution>
+
+      
+
 		        
 		    </executions>
 		</plugin>
