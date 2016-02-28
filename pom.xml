@@ -222,24 +222,7 @@
          </configuration>
       </execution>
 
-<!-- hibernate - 3.5.5.0004L -->
-      <execution>
-         <id>hibernate-3.5.5.0004L</id>
-         <phase>initialize</phase>
-         <goals>
-            <goal>install-file</goal>
-         </goals>
-         <configuration>
-            <groupId>hibernate</groupId>
-            <artifactId>hibernate</artifactId>
-            <version>3.5.5.0004L</version>
-            <packaging>jar</packaging>
-            <createChecksum>true</createChecksum>
-            <generatePom>true</generatePom>
-            <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/hibernate-3-5-5-0004L.jar</file>
-         </configuration>
-      </execution>
+
 <!-- javassist - 3.9.0 -->
       <execution>
          <id>javassist-3.9.0</id>
@@ -256,6 +239,24 @@
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
             <file>${dir.src}/javassist-3-9-0.jar</file>
+         </configuration>
+      </execution>
+      <!-- hibernate - 3.5.5.0005L -->
+      <execution>
+         <id>hibernate-3.5.5.0005L</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>hibernate</groupId>
+            <artifactId>hibernate</artifactId>
+            <version>3.5.5.0005L</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/hibernate-3-5-5-0005L.jar</file>
          </configuration>
       </execution>
 
