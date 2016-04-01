@@ -2264,7 +2264,60 @@
          </configuration>
       </execution>
 
-      
+      <!-- ojdbc - 10.2.0.2 -->
+      <execution>
+         <id>ojdbc-10.2.0.2</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>ojdbc</groupId>
+            <artifactId>ojdbc</artifactId>
+            <version>10.2.0.2</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/ojdbc-10-2-0-2.jar</file>
+         </configuration>
+      </execution>
+<!-- ojdbc - 11.2.0.4 -->
+      <execution>
+         <id>ojdbc-11.2.0.4</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>ojdbc</groupId>
+            <artifactId>ojdbc</artifactId>
+            <version>11.2.0.4</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/ojdbc-11-2-0-4.jar</file>
+         </configuration>
+      </execution>
+<!-- ojdbc - 12.1.0.2 -->
+      <execution>
+         <id>ojdbc-12.1.0.2</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>ojdbc</groupId>
+            <artifactId>ojdbc</artifactId>
+            <version>12.1.0.2</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/ojdbc-12-1-0-2.jar</file>
+         </configuration>
+      </execution>
 
 		        
 		    </executions>
