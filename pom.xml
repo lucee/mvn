@@ -202,6 +202,24 @@
             <file>${dir.src}/jandex-1-1-0.jar</file>
          </configuration>
       </execution>
+<!-- org.apache.commons.image - 1.0.0.R1534292 -->
+      <execution>
+         <id>org.apache.commons.image-1.0.0.R1534292</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>image</artifactId>
+            <version>1.0.0.R1534292</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/org-apache-commons-image-1-0-0-R1534292.jar</file>
+         </configuration>
+      </execution>
 
 <!-- jboss.logging.annotations - 1.2.0 -->
       <execution>
