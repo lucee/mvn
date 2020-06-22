@@ -1898,6 +1898,25 @@
          </configuration>
       </execution>
 
+<!-- javax.mail.activation - 1.6.2 -->
+      <execution>
+         <id>javax.mail.activation-1.6.2</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>javax.mail</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.6.2</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/javax-mail-activation-1.6.2.jar</file>
+         </configuration>
+      </execution>
+
 <!-- sun.security.jaas - 1.2.4 -->
       <execution>
          <id>sun.security.jaas-1.2.4</id>
