@@ -1913,7 +1913,7 @@
             <createChecksum>true</createChecksum>
             <generatePom>true</generatePom>
             <localRepositoryPath>${dir.trg}</localRepositoryPath>
-            <file>${dir.src}/javax-mail-activation-1-4-7-0002L.jar</file>
+            <file>${dir.src}/javax-mail-activation-1-6-2-0000L.jar</file>
          </configuration>
       </execution>
 
