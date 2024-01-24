@@ -54,6 +54,44 @@
          </configuration>
       </execution>-->
 <!-- org.apache.commons.codec - 1.6.0 -->
+      
+      <execution>
+         <id>jakarta.mail-api-2.1.2</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>jakarta.mail-api</groupId>
+            <artifactId>jakarta.mail</artifactId>
+            <version>2.1.2</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/jakarta.mail-api-2.1.2.jar</file>
+         </configuration>
+      </execution>
+      <execution>
+         <id>jakarta.activation-api-2.1.2</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>jakarta.activation-api</groupId>
+            <artifactId>jakarta.activation</artifactId>
+            <version>2.1.2</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/jakarta.activation-api-2.1.2.jar</file>
+         </configuration>
+      </execution>
+
+
+
       <execution>
          <id>org.apache.commons.codec-1.6.0</id>
          <phase>initialize</phase>
