@@ -2433,6 +2433,23 @@
             <file>${dir.src}/ojdbc7-12-1-0-2.jar</file>
          </configuration>
       </execution>
+      <execution>
+         <id>org.lucee.jakarta-activation-mail-1.2.1</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>org.lucee</groupId>
+            <artifactId>jakarta-activation-mail</artifactId>
+            <version>1.2.1</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/org.lucee.jakarta-activation-mail-1.2.1.jar</file>
+         </configuration>
+      </execution>
 		        
 		    </executions>
 		</plugin>
