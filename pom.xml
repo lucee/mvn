@@ -2450,6 +2450,25 @@
             <file>${dir.src}/org.lucee.jakarta-activation-mail-1.2.1.jar</file>
          </configuration>
       </execution>
+
+
+      <execution>
+         <id>org.lucee.commons-email-all-1.6.0</id>
+         <phase>initialize</phase>
+         <goals>
+            <goal>install-file</goal>
+         </goals>
+         <configuration>
+            <groupId>org.lucee</groupId>
+            <artifactId>commons-email-all</artifactId>
+            <version>1.6.0</version>
+            <packaging>jar</packaging>
+            <createChecksum>true</createChecksum>
+            <generatePom>true</generatePom>
+            <localRepositoryPath>${dir.trg}</localRepositoryPath>
+            <file>${dir.src}/org.lucee.commons-email-all-1.6.0.jar</file>
+         </configuration>
+      </execution>
 		        
 		    </executions>
 		</plugin>
